@@ -10,7 +10,7 @@ This project implements a simple pet shop management system. It includes classes
 - Dog.py              # Contains the Dog class
 - Data.py             # Contains the Data class for database interaction
 - petShop.py          # Script to perform pet shop operations
-- homework.sql        # SQL file containing database schema and sample insert statements
+- petdb.sql        # SQL file containing database schema and sample insert statements
 - test_cat.py         # Unit tests for the Cat class
 - README.md           # Project README file
 ```
@@ -38,7 +38,7 @@ The project consists of the following components:
 - `Dog` class: Similar to the `Cat` class but represents a dog with similar attributes and methods.
 - `Data` class: Simulates a data management system, mainly for database interaction. It includes methods for beginning a transaction, committing a transaction, rolling back a transaction, and inserting data into a simulated database.
 - `petShop.py`: A script to perform pet shop operations. It includes functions to save pets to the database, create test cases, and log execution statistics.
-- `homework.sql`: Contains SQL statements to create tables for storing `Cat` and `Dog` objects in a simulated database, along with sample insert statements.
+- `petdb.sql`: Contains SQL statements to create tables for storing `Cat` and `Dog` objects in a simulated database, along with sample insert statements.
 - `test_cat.py`: Unit tests for the `Cat` class, ensuring the functionality of the class, including initial age assignment, speaking behavior, name handling, and age incrementing.
 
 #### Approach
